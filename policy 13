@@ -1,0 +1,47 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:GetServerCertificate",
+                "iam:GetRole",
+                "iam:GetPolicyVersion",
+                "iam:GetInstanceProfile",
+                "iam:GetPolicy",
+                "iam:GenerateServiceLastAccessedDetails",
+                "iam:GetAccessKeyLastUsed",
+                "iam:GetSSHPublicKey",
+                "iam:GetGroup",
+                "iam:GetContextKeysForPrincipalPolicy",
+                "iam:GetServiceLinkedRoleDeletionStatus",
+                "iam:SimulatePrincipalPolicy",
+                "iam:GetUserPolicy",
+                "iam:GenerateOrganizationsAccessReport",
+                "iam:GetGroupPolicy",
+                "iam:GetUser",
+                "iam:GetOpenIDConnectProvider",
+                "iam:GetRolePolicy",
+                "iam:GetSAMLProvider"
+            ],
+            "Resource": "arn:aws:iam::453396074533:policy/*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "iam:GetContextKeysForCustomPolicy",
+                "iam:GenerateCredentialReport",
+                "iam:GetAccountPasswordPolicy",
+                "iam:SimulateCustomPolicy",
+                "iam:GetServiceLastAccessedDetailsWithEntities",
+                "iam:GetCredentialReport",
+                "iam:GetServiceLastAccessedDetails",
+                "iam:GetAccountAuthorizationDetails",
+                "iam:GetOrganizationsAccessReport"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
