@@ -1,0 +1,40 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:UpdateAssumeRolePolicy",
+                "iam:PutRolePermissionsBoundary",
+                "iam:PutUserPermissionsBoundary",
+                "iam:AttachUserPolicy",
+                "iam:DeleteUserPolicy",
+                "iam:DeletePolicy",
+                "iam:AttachRolePolicy",
+                "iam:DeleteUserPermissionsBoundary",
+                "iam:PutRolePolicy",
+                "iam:DeleteRolePermissionsBoundary",
+                "iam:CreatePolicy",
+                "iam:DetachRolePolicy",
+                "iam:AttachGroupPolicy",
+                "iam:DeleteRolePolicy",
+                "iam:PutUserPolicy",
+                "iam:DetachGroupPolicy",
+                "iam:CreatePolicyVersion",
+                "iam:DeleteGroupPolicy",
+                "iam:DetachUserPolicy",
+                "iam:DeletePolicyVersion",
+                "iam:PutGroupPolicy",
+                "iam:SetDefaultPolicyVersion"
+            ],
+            "Resource": "arn:aws:iam::453396074533:user/*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": "iam:DeleteAccountPasswordPolicy",
+            "Resource": "*"
+        }
+    ]
+}
