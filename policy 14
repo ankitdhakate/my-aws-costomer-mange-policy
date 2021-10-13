@@ -1,0 +1,28 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:UntagSAMLProvider",
+                "iam:UntagRole",
+                "iam:TagRole",
+                "iam:TagMFADevice",
+                "iam:TagSAMLProvider",
+                "iam:UntagServerCertificate",
+                "iam:TagPolicy",
+                "iam:TagUser",
+                "iam:UntagUser",
+                "iam:UntagMFADevice",
+                "iam:TagServerCertificate",
+                "iam:UntagPolicy",
+                "iam:UntagOpenIDConnectProvider",
+                "iam:UntagInstanceProfile",
+                "iam:TagOpenIDConnectProvider",
+                "iam:TagInstanceProfile"
+            ],
+            "Resource": "arn:aws:iam::453396074533:policy/*"
+        }
+    ]
+}
